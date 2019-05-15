@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214D1B2E54B9DC0C79BCE27A /* libPods-idaddy-api-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E42D1D696C9615B9054000 /* libPods-idaddy-api-demo.a */; };
+		AA071ED7228C074E0061D05B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071ED6228C074E0061D05B /* AppDelegate.m */; };
+		AA071EDA228C074E0061D05B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071ED9228C074E0061D05B /* ViewController.m */; };
+		AA071EDD228C074E0061D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071EDB228C074E0061D05B /* Main.storyboard */; };
+		AA071EDF228C07520061D05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA071EDE228C07520061D05B /* Assets.xcassets */; };
+		AA071EE2228C07520061D05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA071EE0228C07520061D05B /* LaunchScreen.storyboard */; };
+		AA071EE5228C07520061D05B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EE4228C07520061D05B /* main.m */; };
+		AA071EFA228C2FB40061D05B /* NSString+random.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EF9228C2FB40061D05B /* NSString+random.m */; };
+		AA071EFD228C30700061D05B /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EFC228C30700061D05B /* NSString+SHA1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AFDD82ABC8350892DA46F55 /* Pods-idaddy-api-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idaddy-api-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idaddy-api-demo/Pods-idaddy-api-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9F81FCF398A713F2ED60635C /* Pods-idaddy-api-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idaddy-api-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-idaddy-api-demo/Pods-idaddy-api-demo.release.xcconfig"; sourceTree = "<group>"; };
+		AA071ED2228C074E0061D05B /* idaddy-api-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idaddy-api-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA071ED5228C074E0061D05B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA071ED6228C074E0061D05B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA071ED8228C074E0061D05B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA071ED9228C074E0061D05B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA071EDC228C074E0061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA071EDE228C07520061D05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA071EE1228C07520061D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA071EE3228C07520061D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA071EE4228C07520061D05B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA071EF8228C2FB40061D05B /* NSString+random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+random.h"; sourceTree = "<group>"; };
+		AA071EF9228C2FB40061D05B /* NSString+random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+random.m"; sourceTree = "<group>"; };
+		AA071EFB228C30700061D05B /* NSString+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		AA071EFC228C30700061D05B /* NSString+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
+		B4E42D1D696C9615B9054000 /* libPods-idaddy-api-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idaddy-api-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA071ECF228C074E0061D05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214D1B2E54B9DC0C79BCE27A /* libPods-idaddy-api-demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE9C61512D2E0E62BC2CA9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDD82ABC8350892DA46F55 /* Pods-idaddy-api-demo.debug.xcconfig */,
+				9F81FCF398A713F2ED60635C /* Pods-idaddy-api-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA071EC9228C074E0061D05B = {
+			isa = PBXGroup;
+			children = (
+				AA071ED4228C074E0061D05B /* idaddy-api-demo */,
+				AA071ED3228C074E0061D05B /* Products */,
+				3AE9C61512D2E0E62BC2CA9B /* Pods */,
+				C7CDDA17B4E956105A3E2B40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA071ED3228C074E0061D05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA071ED2228C074E0061D05B /* idaddy-api-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA071ED4228C074E0061D05B /* idaddy-api-demo */ = {
+			isa = PBXGroup;
+			children = (
+				AA071ED5228C074E0061D05B /* AppDelegate.h */,
+				AA071ED6228C074E0061D05B /* AppDelegate.m */,
+				AA071ED8228C074E0061D05B /* ViewController.h */,
+				AA071ED9228C074E0061D05B /* ViewController.m */,
+				AA071EDB228C074E0061D05B /* Main.storyboard */,
+				AA071EDE228C07520061D05B /* Assets.xcassets */,
+				AA071EE0228C07520061D05B /* LaunchScreen.storyboard */,
+				AA071EE3228C07520061D05B /* Info.plist */,
+				AA071EE4228C07520061D05B /* main.m */,
+				AA071EF8228C2FB40061D05B /* NSString+random.h */,
+				AA071EF9228C2FB40061D05B /* NSString+random.m */,
+				AA071EFB228C30700061D05B /* NSString+SHA1.h */,
+				AA071EFC228C30700061D05B /* NSString+SHA1.m */,
+			);
+			path = "idaddy-api-demo";
+			sourceTree = "<group>";
+		};
+		C7CDDA17B4E956105A3E2B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E42D1D696C9615B9054000 /* libPods-idaddy-api-demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA071ED1228C074E0061D05B /* idaddy-api-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA071EE8228C07520061D05B /* Build configuration list for PBXNativeTarget "idaddy-api-demo" */;
+			buildPhases = (
+				678B9B3409DDF443722E6282 /* [CP] Check Pods Manifest.lock */,
+				AA071ECE228C074E0061D05B /* Sources */,
+				AA071ECF228C074E0061D05B /* Frameworks */,
+				AA071ED0228C074E0061D05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "idaddy-api-demo";
+			productName = "idaddy-api-demo";
+			productReference = AA071ED2228C074E0061D05B /* idaddy-api-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA071ECA228C074E0061D05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MTX Software Technology Co.,Ltd.";
+				TargetAttributes = {
+					AA071ED1228C074E0061D05B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA071ECD228C074E0061D05B /* Build configuration list for PBXProject "idaddy-api-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA071EC9228C074E0061D05B;
+			productRefGroup = AA071ED3228C074E0061D05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA071ED1228C074E0061D05B /* idaddy-api-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA071ED0228C074E0061D05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071EE2228C07520061D05B /* LaunchScreen.storyboard in Resources */,
+				AA071EDF228C07520061D05B /* Assets.xcassets in Resources */,
+				AA071EDD228C074E0061D05B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		678B9B3409DDF443722E6282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idaddy-api-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA071ECE228C074E0061D05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA071EFA228C2FB40061D05B /* NSString+random.m in Sources */,
+				AA071EFD228C30700061D05B /* NSString+SHA1.m in Sources */,
+				AA071EDA228C074E0061D05B /* ViewController.m in Sources */,
+				AA071EE5228C07520061D05B /* main.m in Sources */,
+				AA071ED7228C074E0061D05B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA071EDB228C074E0061D05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA071EDC228C074E0061D05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA071EE0228C07520061D05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA071EE1228C07520061D05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA071EE6228C07520061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA071EE7228C07520061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA071EE9228C07520061D05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFDD82ABC8350892DA46F55 /* Pods-idaddy-api-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = "idaddy-api-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA071EEA228C07520061D05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F81FCF398A713F2ED60635C /* Pods-idaddy-api-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = "idaddy-api-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA071ECD228C074E0061D05B /* Build configuration list for PBXProject "idaddy-api-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071EE6228C07520061D05B /* Debug */,
+				AA071EE7228C07520061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA071EE8228C07520061D05B /* Build configuration list for PBXNativeTarget "idaddy-api-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071EE9228C07520061D05B /* Debug */,
+				AA071EEA228C07520061D05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA071ECA228C074E0061D05B /* Project object */;
+}
