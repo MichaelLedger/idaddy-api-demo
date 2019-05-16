@@ -1,6 +1,6 @@
 # idaddy-api-demo
 
-**口袋故事： 知名的儿童内容云开放平台**
+## 口袋故事： 知名的儿童内容云开放平台
 
 [接入说明](https://www.showdoc.cc/lpgonghan?page_id=1845766170650477)
 
