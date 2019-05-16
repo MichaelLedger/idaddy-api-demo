@@ -16,6 +16,12 @@
 		AA071EE5228C07520061D05B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EE4228C07520061D05B /* main.m */; };
 		AA071EFA228C2FB40061D05B /* NSString+random.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EF9228C2FB40061D05B /* NSString+random.m */; };
 		AA071EFD228C30700061D05B /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EFC228C30700061D05B /* NSString+SHA1.m */; };
+		AA071F04228CEC480061D05B /* IdaddyNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F03228CEC480061D05B /* IdaddyNetworkManager.m */; };
+		AA071F08228CFA5B0061D05B /* IdaddyServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F07228CFA5B0061D05B /* IdaddyServerConfig.m */; };
+		AA071F0E228D04100061D05B /* NSMutableDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F0D228D04100061D05B /* NSMutableDictionary+Merge.m */; };
+		AA071F56228D33750061D05B /* NSString+Append.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F55228D33750061D05B /* NSString+Append.m */; };
+		AA071F59228D33B20061D05B /* NSDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F58228D33B20061D05B /* NSDictionary+URL.m */; };
+		AA071F5F228D514C0061D05B /* SignTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071F5E228D514C0061D05B /* SignTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,19 @@
 		AA071EF9228C2FB40061D05B /* NSString+random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+random.m"; sourceTree = "<group>"; };
 		AA071EFB228C30700061D05B /* NSString+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
 		AA071EFC228C30700061D05B /* NSString+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
+		AA071F02228CEC480061D05B /* IdaddyNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdaddyNetworkManager.h; sourceTree = "<group>"; };
+		AA071F03228CEC480061D05B /* IdaddyNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdaddyNetworkManager.m; sourceTree = "<group>"; };
+		AA071F05228CF5C10061D05B /* IdaddyNetworkUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdaddyNetworkUrl.h; sourceTree = "<group>"; };
+		AA071F06228CFA5B0061D05B /* IdaddyServerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdaddyServerConfig.h; sourceTree = "<group>"; };
+		AA071F07228CFA5B0061D05B /* IdaddyServerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdaddyServerConfig.m; sourceTree = "<group>"; };
+		AA071F0C228D04100061D05B /* NSMutableDictionary+Merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Merge.h"; sourceTree = "<group>"; };
+		AA071F0D228D04100061D05B /* NSMutableDictionary+Merge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Merge.m"; sourceTree = "<group>"; };
+		AA071F54228D33750061D05B /* NSString+Append.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Append.h"; sourceTree = "<group>"; };
+		AA071F55228D33750061D05B /* NSString+Append.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Append.m"; sourceTree = "<group>"; };
+		AA071F57228D33B20061D05B /* NSDictionary+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URL.h"; sourceTree = "<group>"; };
+		AA071F58228D33B20061D05B /* NSDictionary+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URL.m"; sourceTree = "<group>"; };
+		AA071F5D228D514C0061D05B /* SignTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignTool.h; sourceTree = "<group>"; };
+		AA071F5E228D514C0061D05B /* SignTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignTool.m; sourceTree = "<group>"; };
 		B4E42D1D696C9615B9054000 /* libPods-idaddy-api-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idaddy-api-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +99,7 @@
 		AA071ED4228C074E0061D05B /* idaddy-api-demo */ = {
 			isa = PBXGroup;
 			children = (
+				AA071EFE228CEBF70061D05B /* IdaddyNetworkManager */,
 				AA071ED5228C074E0061D05B /* AppDelegate.h */,
 				AA071ED6228C074E0061D05B /* AppDelegate.m */,
 				AA071ED8228C074E0061D05B /* ViewController.h */,
@@ -89,12 +109,56 @@
 				AA071EE0228C07520061D05B /* LaunchScreen.storyboard */,
 				AA071EE3228C07520061D05B /* Info.plist */,
 				AA071EE4228C07520061D05B /* main.m */,
+			);
+			path = "idaddy-api-demo";
+			sourceTree = "<group>";
+		};
+		AA071EFE228CEBF70061D05B /* IdaddyNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F01228CEC1D0061D05B /* Helper */,
+				AA071F00228CEC0E0061D05B /* Manager */,
+				AA071EFF228CEC090061D05B /* Model */,
+			);
+			path = IdaddyNetworkManager;
+			sourceTree = "<group>";
+		};
+		AA071EFF228CEC090061D05B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA071F00228CEC0E0061D05B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AA071F05228CF5C10061D05B /* IdaddyNetworkUrl.h */,
+				AA071F02228CEC480061D05B /* IdaddyNetworkManager.h */,
+				AA071F03228CEC480061D05B /* IdaddyNetworkManager.m */,
+				AA071F06228CFA5B0061D05B /* IdaddyServerConfig.h */,
+				AA071F07228CFA5B0061D05B /* IdaddyServerConfig.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AA071F01228CEC1D0061D05B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
 				AA071EF8228C2FB40061D05B /* NSString+random.h */,
 				AA071EF9228C2FB40061D05B /* NSString+random.m */,
 				AA071EFB228C30700061D05B /* NSString+SHA1.h */,
 				AA071EFC228C30700061D05B /* NSString+SHA1.m */,
+				AA071F0C228D04100061D05B /* NSMutableDictionary+Merge.h */,
+				AA071F0D228D04100061D05B /* NSMutableDictionary+Merge.m */,
+				AA071F54228D33750061D05B /* NSString+Append.h */,
+				AA071F55228D33750061D05B /* NSString+Append.m */,
+				AA071F57228D33B20061D05B /* NSDictionary+URL.h */,
+				AA071F58228D33B20061D05B /* NSDictionary+URL.m */,
+				AA071F5D228D514C0061D05B /* SignTool.h */,
+				AA071F5E228D514C0061D05B /* SignTool.m */,
 			);
-			path = "idaddy-api-demo";
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		C7CDDA17B4E956105A3E2B40 /* Frameworks */ = {
@@ -199,9 +263,15 @@
 			files = (
 				AA071EFA228C2FB40061D05B /* NSString+random.m in Sources */,
 				AA071EFD228C30700061D05B /* NSString+SHA1.m in Sources */,
+				AA071F0E228D04100061D05B /* NSMutableDictionary+Merge.m in Sources */,
 				AA071EDA228C074E0061D05B /* ViewController.m in Sources */,
 				AA071EE5228C07520061D05B /* main.m in Sources */,
+				AA071F08228CFA5B0061D05B /* IdaddyServerConfig.m in Sources */,
 				AA071ED7228C074E0061D05B /* AppDelegate.m in Sources */,
+				AA071F04228CEC480061D05B /* IdaddyNetworkManager.m in Sources */,
+				AA071F5F228D514C0061D05B /* SignTool.m in Sources */,
+				AA071F59228D33B20061D05B /* NSDictionary+URL.m in Sources */,
+				AA071F56228D33750061D05B /* NSString+Append.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
